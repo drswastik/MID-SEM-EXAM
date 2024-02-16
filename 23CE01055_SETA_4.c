@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,flag=0;
+    int a,flag;
     printf("Enter A Number: ");
     scanf("%d",&a);
     int d[a-2];
@@ -32,13 +32,14 @@ int main(){
                     }
                 }if((fli==1)&&(fla==1)){
                     printf("%d %d\n",d[u],d[p]);
-                    
+                    flag=1;
                 
                 
                 }
                 
                 
     }}}
-    
+    if (flag==0){
+        printf("No Such Pairs Available")}
     return 0;}
 
