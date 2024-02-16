@@ -33,9 +33,11 @@ int main(){
                 }if((fli==1)&&(fla==1)){
                     printf("%d %d\n",d[u],d[p]);
                     flag=1;
+                }else{
+                    flag=0}
                 
                 
-                }
+                
                 
                 
     }}}
